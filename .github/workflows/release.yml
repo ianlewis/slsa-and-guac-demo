@@ -7,7 +7,7 @@ on:
       - "*" # triggers only if push new tag version, like `0.8.4` or else
 
 env:
-  IMAGE_NAME: ianmlewis/slsa-and-guac-demo
+  IMAGE_NAME: ${{ vars.DOCKER_HUB_USERNAME }}/slsa-and-guac-demo
 
 jobs:
   # Generate ldflags dynamically.
