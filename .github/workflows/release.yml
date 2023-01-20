@@ -53,7 +53,7 @@ jobs:
 
       - uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
         with:
-          name: ${{ needs.build.outputs.go-binary-name }}
+          name: ${{ needs.builder.outputs.go-binary-name }}
           path: slsa-and-guac-demo
 
       - name: Set up Docker Buildx

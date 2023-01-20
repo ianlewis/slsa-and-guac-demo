@@ -10,7 +10,7 @@ flags:
 
 goos: linux
 goarch: amd64
-binary: slsa-and-guac-test
+binary: slsa-and-guac-demo
 dir: ./
 
 ldflags:
