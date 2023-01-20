@@ -45,6 +45,7 @@ jobs:
     needs: [builder]
     outputs:
       digest: ${{ steps.build.outputs.digest }}
+      image: ${{ steps.image.outputs.image }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
