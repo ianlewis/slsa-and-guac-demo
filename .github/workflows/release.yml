@@ -73,10 +73,6 @@ jobs:
           name: ${{ needs.builder.outputs.go-binary-name }}
           path: slsa-and-guac-demo
 
-      - name: set executable
-        run: |
-          chmod u+x slsa-and-guac-demo
-
       - name: Build and push Docker image
         uses: docker/build-push-action@e551b19e49efd4e98792db7592c17c09b89db8d8 # v3.0.0
         id: build
