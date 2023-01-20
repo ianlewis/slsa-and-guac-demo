@@ -1,0 +1,41 @@
+name: Release
+
+on:
+  # For manual tests.
+  workflow_dispatch:
+    inputs:
+      release-tag:
+        description: "Release tag to test"
+        required: true
+        type: string
+  push:
+    tags:
+      - "*" # triggers only if push new tag version, like `0.8.4` or else
+
+jobs:
+  # Generate ldflags dynamically.
+  args:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.ldflags.outputs.version }}
+    steps:
+      - id: checkout
+        uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
+        with:
+          fetch-depth: 0
+      - id: ldflags
+        run: |
+          echo "version=$(git describe --tags --always --dirty | cut -c2-)" >> "$GITHUB_OUTPUT"
+
+  builder:
+    name: Build Go Binary
+    needs: [args]
+    permissions:
+      actions: read # For the detection of GitHub Actions environment.
+      id-token: write # For signing.
+      contents: write # For asset uploads.
+    uses: slsa-framework/slsa-github-generator/.github/workflows/builder_go_slsa3.yml@v1.4.0
+    with:
+      go-version: 1.18
+      config-file: .slsa-goreleaser.yml
+      evaluated-envs: "VERSION:${{needs.args.outputs.version}}"
