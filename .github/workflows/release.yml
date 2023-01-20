@@ -62,7 +62,7 @@ jobs:
         uses: docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b # v2.0.0
         with:
           username: ${{ vars.DOCKER_HUB_USERNAME }}
-          password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+          password: ${{ secrets.DOCKER_HUB_TOKEN }}
 
       - name: Extract metadata (tags, labels) for Docker
         id: meta
@@ -103,4 +103,4 @@ jobs:
       digest: ${{ needs.image.outputs.digest }}
       registry-username: ${{ vars.DOCKER_HUB_USERNAME }}
     secrets:
-      registry-password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+      registry-password: ${{ secrets.DOCKER_HUB_TOKEN }}
