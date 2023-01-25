@@ -1,0 +1,224 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicateType": "https://slsa.dev/provenance/v0.2",
+  "subject": [
+    {
+      "name": "index.docker.io/ianmlewis/slsa-and-guac-demo",
+      "digest": {
+        "sha256": "4bf2c21838ecbdd33837d119814c58c8617972cfe3f40215c9482e6454b5c63c"
+      }
+    }
+  ],
+  "predicate": {
+    "builder": {
+      "id": "https://github.com/slsa-framework/slsa-github-generator/.github/workflows/generator_container_slsa3.yml@refs/tags/v1.4.0"
+    },
+    "buildType": "https://github.com/slsa-framework/slsa-github-generator/container@v1",
+    "invocation": {
+      "configSource": {
+        "uri": "git+https://github.com/ianlewis/slsa-and-guac-demo@refs/tags/v0.0.1",
+        "digest": {
+          "sha1": "e89f0b465053eef9e5e5c1a9957aac0270aa439a"
+        },
+        "entryPoint": ".github/workflows/release.yml"
+      },
+      "parameters": {},
+      "environment": {
+        "github_actor": "ianlewis",
+        "github_actor_id": "49289",
+        "github_base_ref": "",
+        "github_event_name": "push",
+        "github_event_payload": {
+          "after": "e89f0b465053eef9e5e5c1a9957aac0270aa439a",
+          "base_ref": "refs/heads/main",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [],
+          "compare": "https://github.com/ianlewis/slsa-and-guac-demo/compare/v0.0.1",
+          "created": true,
+          "deleted": false,
+          "forced": false,
+          "head_commit": {
+            "author": {
+              "email": "ianmlewis@gmail.com",
+              "name": "Ian Lewis",
+              "username": "ianlewis"
+            },
+            "committer": {
+              "email": "ianmlewis@gmail.com",
+              "name": "Ian Lewis",
+              "username": "ianlewis"
+            },
+            "distinct": true,
+            "id": "e89f0b465053eef9e5e5c1a9957aac0270aa439a",
+            "message": "fix permissions\n\nSigned-off-by: Ian Lewis <ianmlewis@gmail.com>",
+            "timestamp": "2023-01-20T09:54:14Z",
+            "tree_id": "353b53f8ac72988b95df95994e597239cf5f252a",
+            "url": "https://github.com/ianlewis/slsa-and-guac-demo/commit/e89f0b465053eef9e5e5c1a9957aac0270aa439a"
+          },
+          "pusher": {
+            "email": "ianlewis@google.com",
+            "name": "ianlewis"
+          },
+          "ref": "refs/tags/v0.0.1",
+          "repository": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/branches{/branch}",
+            "clone_url": "https://github.com/ianlewis/slsa-and-guac-demo.git",
+            "collaborators_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/comments{/number}",
+            "commits_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/contributors",
+            "created_at": 1674194546,
+            "default_branch": "main",
+            "deployments_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/deployments",
+            "description": "A demo of SLSA and GUAC",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/downloads",
+            "events_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/events",
+            "fork": false,
+            "forks": 0,
+            "forks_count": 0,
+            "forks_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/forks",
+            "full_name": "ianlewis/slsa-and-guac-demo",
+            "git_commits_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/git/tags{/sha}",
+            "git_url": "git://github.com/ianlewis/slsa-and-guac-demo.git",
+            "has_discussions": false,
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": null,
+            "hooks_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/hooks",
+            "html_url": "https://github.com/ianlewis/slsa-and-guac-demo",
+            "id": 591189844,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/issues{/number}",
+            "keys_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/labels{/name}",
+            "language": "Go",
+            "languages_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/languages",
+            "license": {
+              "key": "apache-2.0",
+              "name": "Apache License 2.0",
+              "node_id": "MDc6TGljZW5zZTI=",
+              "spdx_id": "Apache-2.0",
+              "url": "https://api.github.com/licenses/apache-2.0"
+            },
+            "master_branch": "main",
+            "merges_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/merges",
+            "milestones_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/milestones{/number}",
+            "mirror_url": null,
+            "name": "slsa-and-guac-demo",
+            "node_id": "R_kgDOIzzXVA",
+            "notifications_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+              "avatar_url": "https://avatars.githubusercontent.com/u/49289?v=4",
+              "email": "ianlewis@google.com",
+              "events_url": "https://api.github.com/users/ianlewis/events{/privacy}",
+              "followers_url": "https://api.github.com/users/ianlewis/followers",
+              "following_url": "https://api.github.com/users/ianlewis/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ianlewis/gists{/gist_id}",
+              "gravatar_id": "",
+              "html_url": "https://github.com/ianlewis",
+              "id": 49289,
+              "login": "ianlewis",
+              "name": "ianlewis",
+              "node_id": "MDQ6VXNlcjQ5Mjg5",
+              "organizations_url": "https://api.github.com/users/ianlewis/orgs",
+              "received_events_url": "https://api.github.com/users/ianlewis/received_events",
+              "repos_url": "https://api.github.com/users/ianlewis/repos",
+              "site_admin": false,
+              "starred_url": "https://api.github.com/users/ianlewis/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ianlewis/subscriptions",
+              "type": "User",
+              "url": "https://api.github.com/users/ianlewis"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/pulls{/number}",
+            "pushed_at": 1674539210,
+            "releases_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/releases{/id}",
+            "size": 17,
+            "ssh_url": "git@github.com:ianlewis/slsa-and-guac-demo.git",
+            "stargazers": 0,
+            "stargazers_count": 0,
+            "stargazers_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/stargazers",
+            "statuses_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/subscribers",
+            "subscription_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/subscription",
+            "svn_url": "https://github.com/ianlewis/slsa-and-guac-demo",
+            "tags_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/tags",
+            "teams_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/teams",
+            "topics": [],
+            "trees_url": "https://api.github.com/repos/ianlewis/slsa-and-guac-demo/git/trees{/sha}",
+            "updated_at": "2023-01-20T07:37:09Z",
+            "url": "https://github.com/ianlewis/slsa-and-guac-demo",
+            "visibility": "public",
+            "watchers": 0,
+            "watchers_count": 0,
+            "web_commit_signoff_required": false
+          },
+          "sender": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/49289?v=4",
+            "events_url": "https://api.github.com/users/ianlewis/events{/privacy}",
+            "followers_url": "https://api.github.com/users/ianlewis/followers",
+            "following_url": "https://api.github.com/users/ianlewis/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ianlewis/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/ianlewis",
+            "id": 49289,
+            "login": "ianlewis",
+            "node_id": "MDQ6VXNlcjQ5Mjg5",
+            "organizations_url": "https://api.github.com/users/ianlewis/orgs",
+            "received_events_url": "https://api.github.com/users/ianlewis/received_events",
+            "repos_url": "https://api.github.com/users/ianlewis/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/ianlewis/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ianlewis/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/ianlewis"
+          }
+        },
+        "github_head_ref": "",
+        "github_ref": "refs/tags/v0.0.1",
+        "github_ref_type": "tag",
+        "github_repository_id": "591189844",
+        "github_repository_owner": "ianlewis",
+        "github_repository_owner_id": "49289",
+        "github_run_attempt": "1",
+        "github_run_id": "3993402299",
+        "github_run_number": "13",
+        "github_sha1": "e89f0b465053eef9e5e5c1a9957aac0270aa439a"
+      }
+    },
+    "metadata": {
+      "buildInvocationID": "3993402299-1",
+      "completeness": {
+        "parameters": true,
+        "environment": false,
+        "materials": false
+      },
+      "reproducible": false
+    },
+    "materials": [
+      {
+        "uri": "git+https://github.com/ianlewis/slsa-and-guac-demo@refs/tags/v0.0.1",
+        "digest": {
+          "sha1": "e89f0b465053eef9e5e5c1a9957aac0270aa439a"
+        }
+      }
+    ]
+  }
+}

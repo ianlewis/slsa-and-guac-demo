@@ -1,0 +1,199 @@
+{
+ "spdxVersion": "SPDX-2.3",
+ "dataLicense": "CC0-1.0",
+ "SPDXID": "SPDXRef-DOCUMENT",
+ "name": "ianmlewis/slsa-and-guac-demo:0.0.1",
+ "documentNamespace": "https://anchore.com/syft/image/ianmlewis/slsa-and-guac-demo-0.0.1-b089ec23-5b8a-448b-8c48-fd050363f5c2",
+ "creationInfo": {
+  "licenseListVersion": "3.19",
+  "creators": [
+   "Organization: Anchore, Inc",
+   "Tool: syft-0.68.0"
+  ],
+  "created": "2023-01-25T05:04:43Z",
+  "comment": ""
+ },
+ "packages": [
+  {
+   "name": "github.com/common-nighthawk/go-figure",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-common-nighthawk-go-figure-bdd8cab0c7837a6d",
+   "versionInfo": "v0.0.0-20210622060536-734e95fb86be",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "27904bda4b2402557d724804b0d417b1c8c868b88e62267be5de1ef7813a75c4"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /slsa-and-guac-demo",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:common-nighthawk:go-figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:common-nighthawk:go_figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:common_nighthawk:go-figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:common_nighthawk:go_figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:common:go-figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:common:go_figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/common-nighthawk/go-figure@v0.0.0-20210622060536-734e95fb86be",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/ianlewis/slsa-and-guac-demo",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-ianlewis-slsa-and-guac-demo-d4e7a3b8fca59432",
+   "versionInfo": "v0.0.0-20230120095414-e89f0b465053",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: /slsa-and-guac-demo",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:ianlewis:slsa-and-guac-demo:v0.0.0-20230120095414-e89f0b465053:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:ianlewis:slsa_and_guac_demo:v0.0.0-20230120095414-e89f0b465053:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/ianlewis/slsa-and-guac-demo@v0.0.0-20230120095414-e89f0b465053",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/spf13/cobra",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-spf13-cobra-3c189622aa62ee04",
+   "versionInfo": "v1.5.0",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "5fe8d304406a1746c737ef5c48c8267eebefd951c9f5ece614d7fd63f5ecb585"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /slsa-and-guac-demo",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:spf13:cobra:v1.5.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/spf13/cobra@v1.5.0",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/spf13/pflag",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-spf13-pflag-f5355bf4269d2d9",
+   "versionInfo": "v1.0.5",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "8b2f951543823f56bef3216da3f76b836089e6ed3246807b7d9c370cabff2570"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /slsa-and-guac-demo",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/spf13/pflag@v1.0.5",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "sigs.k8s.io/release-utils",
+   "SPDXID": "SPDXRef-Package-go-module-sigs.k8s.io-release-utils-534059f96233089c",
+   "versionInfo": "v0.7.3",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "ea94bcc7a739466754811f6a720d4b3ba863533b84e18a3d4c66770de9ab65d3"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /slsa-and-guac-demo",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/sigs.k8s.io/release-utils@v0.7.3",
+     "comment": ""
+    }
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "spdxElementId": "SPDXRef-DOCUMENT",
+   "relatedSpdxElement": "SPDXRef-DOCUMENT",
+   "relationshipType": "DESCRIBES"
+  }
+ ]
+}

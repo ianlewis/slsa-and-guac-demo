@@ -1,0 +1,333 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:65553692-37bc-459a-9e11-0483a043c91a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-01-25T05:56:01Z",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft",
+        "version": "0.68.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "ecbd6e6180d7bf2c",
+      "type": "container",
+      "name": "ianmlewis/slsa-and-guac-demo:0.0.1",
+      "version": "sha256:d007e79a0402caf52c4f40a6fac0c346d507a12f3040b0b30c887a649b85cd51"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:golang/github.com/common-nighthawk/go-figure@v0.0.0-20210622060536-734e95fb86be?package-id=bdd8cab0c7837a6d",
+      "type": "library",
+      "name": "github.com/common-nighthawk/go-figure",
+      "version": "v0.0.0-20210622060536-734e95fb86be",
+      "cpe": "cpe:2.3:a:common-nighthawk:go-figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/common-nighthawk/go-figure@v0.0.0-20210622060536-734e95fb86be",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:common-nighthawk:go_figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:common_nighthawk:go-figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:common_nighthawk:go_figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:common:go-figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:common:go_figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:5a3ecab3022a8baec27c06aef568feca96ae48de7be357207505de4133e1ef1f"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/slsa-and-guac-demo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.18.10"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:J5BL2kskAlV9ckgEsNQXscjIaLiOYiZ75d4e94E6dcQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/ianlewis/slsa-and-guac-demo"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/ianlewis/slsa-and-guac-demo@v0.0.0-20230120095414-e89f0b465053?package-id=d4e7a3b8fca59432",
+      "type": "library",
+      "name": "github.com/ianlewis/slsa-and-guac-demo",
+      "version": "v0.0.0-20230120095414-e89f0b465053",
+      "cpe": "cpe:2.3:a:ianlewis:slsa-and-guac-demo:v0.0.0-20230120095414-e89f0b465053:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/ianlewis/slsa-and-guac-demo@v0.0.0-20230120095414-e89f0b465053",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ianlewis:slsa_and_guac_demo:v0.0.0-20230120095414-e89f0b465053:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:5a3ecab3022a8baec27c06aef568feca96ae48de7be357207505de4133e1ef1f"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/slsa-and-guac-demo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:-compiler",
+          "value": "gc"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:-tags",
+          "value": "netgo"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:CGO_ENABLED",
+          "value": "0"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:GOAMD64",
+          "value": "v1"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:GOARCH",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:GOOS",
+          "value": "linux"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:vcs",
+          "value": "git"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:vcs.modified",
+          "value": "true"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:vcs.revision",
+          "value": "e89f0b465053eef9e5e5c1a9957aac0270aa439a"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:vcs.time",
+          "value": "2023-01-20T09:54:14Z"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.18.10"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/ianlewis/slsa-and-guac-demo"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/spf13/cobra@v1.5.0?package-id=3c189622aa62ee04",
+      "type": "library",
+      "name": "github.com/spf13/cobra",
+      "version": "v1.5.0",
+      "cpe": "cpe:2.3:a:spf13:cobra:v1.5.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/spf13/cobra@v1.5.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:5a3ecab3022a8baec27c06aef568feca96ae48de7be357207505de4133e1ef1f"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/slsa-and-guac-demo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.18.10"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:X+jTBEBqF0bHN+9cSMgmfuvv2VHJ9ezmFNf9Y/XstYU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/ianlewis/slsa-and-guac-demo"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=f5355bf4269d2d9",
+      "type": "library",
+      "name": "github.com/spf13/pflag",
+      "version": "v1.0.5",
+      "cpe": "cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/spf13/pflag@v1.0.5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:5a3ecab3022a8baec27c06aef568feca96ae48de7be357207505de4133e1ef1f"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/slsa-and-guac-demo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.18.10"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/ianlewis/slsa-and-guac-demo"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/sigs.k8s.io/release-utils@v0.7.3?package-id=534059f96233089c",
+      "type": "library",
+      "name": "sigs.k8s.io/release-utils",
+      "version": "v0.7.3",
+      "purl": "pkg:golang/sigs.k8s.io/release-utils@v0.7.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:5a3ecab3022a8baec27c06aef568feca96ae48de7be357207505de4133e1ef1f"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/slsa-and-guac-demo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.18.10"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:6pS8x6c5RmdUgR9qcg1LO6hjUzuE4Yo9TGZ3DemrZdM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/ianlewis/slsa-and-guac-demo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:dac1c799-779f-4c59-8f4c-7faf5ff5dc9d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-01-25T05:55:50Z",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft",
+        "version": "0.68.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "aac441945279c307",
+      "type": "container",
+      "name": "ianmlewis/slsa-and-guac-demo:1.0.0",
+      "version": "sha256:0356f51b75e341e221fc99beea1d8a6f28bbe00f2af390eb786212e372578643"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:golang/github.com/common-nighthawk/go-figure@v0.0.0-20210622060536-734e95fb86be?package-id=2992ffab5ede0c3c",
+      "type": "library",
+      "name": "github.com/common-nighthawk/go-figure",
+      "version": "v0.0.0-20210622060536-734e95fb86be",
+      "cpe": "cpe:2.3:a:common-nighthawk:go-figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/common-nighthawk/go-figure@v0.0.0-20210622060536-734e95fb86be",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:common-nighthawk:go_figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:common_nighthawk:go-figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:common_nighthawk:go_figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:common:go-figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:common:go_figure:v0.0.0-20210622060536-734e95fb86be:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:e154bfed81edb9490b01287bc8b4b518d138a1a073ed1b9ada043da103d9a52a"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/slsa-and-guac-demo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.18.10"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:J5BL2kskAlV9ckgEsNQXscjIaLiOYiZ75d4e94E6dcQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/ianlewis/fooled-ya"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/ianlewis/fooled-ya@v0.0.0-20230120100301-792590d78a08?package-id=a6e3909fafe7bf3a",
+      "type": "library",
+      "name": "github.com/ianlewis/fooled-ya",
+      "version": "v0.0.0-20230120100301-792590d78a08",
+      "cpe": "cpe:2.3:a:ianlewis:fooled-ya:v0.0.0-20230120100301-792590d78a08:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/ianlewis/fooled-ya@v0.0.0-20230120100301-792590d78a08",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ianlewis:fooled_ya:v0.0.0-20230120100301-792590d78a08:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:e154bfed81edb9490b01287bc8b4b518d138a1a073ed1b9ada043da103d9a52a"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/slsa-and-guac-demo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:-compiler",
+          "value": "gc"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:-tags",
+          "value": "netgo"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:CGO_ENABLED",
+          "value": "0"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:GOAMD64",
+          "value": "v1"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:GOARCH",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:GOOS",
+          "value": "linux"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:vcs",
+          "value": "git"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:vcs.modified",
+          "value": "true"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:vcs.revision",
+          "value": "792590d78a08977b7a64d1e877d7d7e53a55d8ad"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:vcs.time",
+          "value": "2023-01-20T10:03:01Z"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.18.10"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/ianlewis/fooled-ya"
+        }
+      ]
+    }
+  ]
+}
