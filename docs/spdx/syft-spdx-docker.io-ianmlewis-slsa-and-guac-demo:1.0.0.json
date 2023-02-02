@@ -2,15 +2,15 @@
  "spdxVersion": "SPDX-2.3",
  "dataLicense": "CC0-1.0",
  "SPDXID": "SPDXRef-DOCUMENT",
- "name": "ianmlewis/slsa-and-guac-demo:1.0.0",
- "documentNamespace": "https://anchore.com/syft/image/ianmlewis/slsa-and-guac-demo-1.0.0-c692fc3e-78fd-4966-8a6f-a338c49fac1e",
+ "name": "index.docker.io/ianmlewis/slsa-and-guac-demo:1.0.0",
+ "documentNamespace": "https://anchore.com/syft/image/index.docker.io/ianmlewis/slsa-and-guac-demo-1.0.0-23e0d5c1-7784-4b01-9064-18f38e91113b",
  "creationInfo": {
   "licenseListVersion": "3.19",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.68.0"
   ],
-  "created": "2023-01-25T05:04:43Z",
+  "created": "2023-02-01T22:57:50Z",
   "comment": ""
  },
  "packages": [
